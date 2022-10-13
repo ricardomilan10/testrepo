@@ -3,13 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-.heading,
-.paragraph,
-.link,
-.ul,
-.list-item,
-.div,
-.span{
-    border: 2px solid blue;
+.box {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    color: white;
     margin: 1rem;
+}
+
+.flex-container {
+    border: 6px solid red;
+    display: flex;
 }
